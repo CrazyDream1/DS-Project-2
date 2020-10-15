@@ -24,6 +24,15 @@ Replication is done on each creation/upload/deletion of the files. Replicas are 
 
 We used python sockets as a mean of communication between all the parts of our distributed system.
 
+Fault tolerance was not implemented.
+
+
+### Problems with Google Cloud Platform
+
+We were unable to run the application on the servers because we were unable to open the required ports.
+
+We tried to use utilities netstat and iptables.
+
 
 ### Participants’ contribution
 
